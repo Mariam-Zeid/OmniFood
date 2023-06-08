@@ -1,0 +1,12 @@
+///////////////////////////////////////////////////////
+// hero section
+.hero-container {
+  max-width: 130rem;
+  margin: 0 auto; // to be centered
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-img {
+  width: 100%;
+}
