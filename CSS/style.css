@@ -1,60 +1,60 @@
-/* ?==================== CSS Files ==================== */
+/* ?==================== Start Header ==================== */
+.header {
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 2.2rem;
+}
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.main-nav-link:link, .main-nav-link:visited {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+  transition: all .3s;
+}
+.main-nav-link:hover, .main-nav-link:active {
+  color: #e67e22;
+}
+.main-nav-link.nav-cta:link, .nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+.main-nav-link.nav-cta:hover, .nav-cta:active {
+  background-color: #cf711f;
+}
+/* ?==================== End Header ==================== */
+
+/* ?==================== Start Hero Section ==================== */
 .hero-section {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 .hero-container {
   max-width: 130rem;
   margin: auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 9.6rem;
   align-items: center;
 }
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.5px;
-  color: #333;
-  margin-bottom: 3.2rem;
-}
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
-}
-.margin-right-sm {
-  margin-right: 1.6rem;
-}
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  transition: all 0.3s;
-}
-.btn-full:link,
-.btn-full:visited {
-  background-color: #e67e22;
-  color: #fff;
-}
-.btn-full:hover,
-.btn-full:active {
-  background-color: #cf711f;
-}
-.btn-outline:link,
-.btn-outline:visited {
-  background-color: #fff;
-  color: #555;
-}
-.btn-outline:hover,
-.btn-outline:active {
-  background-color: #fdf2e9;
-  /* border: 3px solid #fff; */
-  box-shadow: inset 0 0 0 3px #fff;
 }
 .delivered-meals {
   display: flex;
@@ -83,8 +83,7 @@
   color: #e67e22;
   font-weight: 700;
 }
-
-
 .hero-img img {
   width: 100%;
 }
+/* ?==================== End Hero Section ==================== */
