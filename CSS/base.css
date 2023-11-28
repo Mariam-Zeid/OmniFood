@@ -22,3 +22,7 @@ a {
 ul {
   list-style: none ;
 }
+
+strong {
+  font-weight: 500;
+}
