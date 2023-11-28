@@ -92,6 +92,32 @@
 }
 /* ?==================== End Hero Section ====================? */
 
+/* ?==================== Start Featured-In Section ====================? */
+.featuredIn-section {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  color: #888;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/* ?==================== End Featured-In Section ====================? */
+
 /* ?==================== Start How it works Section ====================? */
 .how-section {
   padding: 9.6rem 0;
