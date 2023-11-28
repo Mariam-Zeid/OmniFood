@@ -1,4 +1,4 @@
-/* ?==================== Start Header ==================== */
+/* ?==================== Start Header ====================? */
 .header {
   background-color: #fdf2e9;
   height: 9.6rem;
@@ -15,29 +15,33 @@
   align-items: center;
   gap: 3.2rem;
 }
-.main-nav-link:link, .main-nav-link:visited {
+.main-nav-link:link,
+.main-nav-link:visited {
   display: inline-block;
   text-transform: capitalize;
   font-size: 1.8rem;
   font-weight: 500;
   color: #333;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-.main-nav-link:hover, .main-nav-link:active {
+.main-nav-link:hover,
+.main-nav-link:active {
   color: #e67e22;
 }
-.main-nav-link.nav-cta:link, .nav-cta:visited {
+.main-nav-link.nav-cta:link,
+.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
 }
-.main-nav-link.nav-cta:hover, .nav-cta:active {
+.main-nav-link.nav-cta:hover,
+.nav-cta:active {
   background-color: #cf711f;
 }
-/* ?==================== End Header ==================== */
+/* ?==================== End Header ====================? */
 
-/* ?==================== Start Hero Section ==================== */
+/* ?==================== Start Hero Section ====================? */
 .hero-section {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
@@ -65,7 +69,7 @@
 .delivered-imgs {
   display: flex;
 }
-.delivered-imgs img{
+.delivered-imgs img {
   height: 4.8rem;
   width: 4.8rem;
   border-radius: 50%;
@@ -86,4 +90,54 @@
 .hero-img img {
   width: 100%;
 }
-/* ?==================== End Hero Section ==================== */
+/* ?==================== End Hero Section ====================? */
+
+/* ?==================== Start How it works Section ====================? */
+.how-section {
+  padding: 9.6rem 0;
+}
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  /* we want to make it into shape */
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.step-img-box::before {
+  z-index: -2;
+  width: 60%;
+  /* height: 60%; */
+  /* 60% of parent's width */
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+}
+.step-img-box::after {
+  z-index: -1;
+  width: 45%;
+  /* height: 45%; */
+  /* 60% of parent's width */
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+}
+.step-img {
+  width: 35%;
+}
+/* ?==================== End How it works Section ====================? */
