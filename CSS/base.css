@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230,126,34,0.5);
+}
+
 html {
   font-size: 62.5%;
 }
