@@ -1,1 +1,2 @@
 We used Ion Icons
+webmanifest is and Extension for androind to recognize a different icons
