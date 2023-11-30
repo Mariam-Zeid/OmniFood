@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -13,7 +14,7 @@
 .main-nav-list {
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -38,6 +39,23 @@
 .main-nav-link.nav-cta:hover,
 .nav-cta:active {
   background-color: #cf711f;
+}
+
+/* Mobile Nav */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+.mobile-icon-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.mobile-icon-nav[name = 'close-outline'] {
+  display: none;
 }
 /* ?==================== End Header ====================? */
 
